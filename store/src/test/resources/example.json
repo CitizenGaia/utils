@@ -1,0 +1,10 @@
+{
+	"bookstore": {
+		"name": "text",
+		"books": [{
+			"name": "text",
+			"Category": "text",
+			"published": "date"
+		}]
+	}
+}

@@ -11,7 +11,7 @@
 
 	  <modules>
 		    <module>store</module>
-		  <modeule>domain</module>
+		  <module>domain</module>
 	  </modules>
 
 </project>

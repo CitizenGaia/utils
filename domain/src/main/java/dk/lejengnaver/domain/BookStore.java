@@ -2,7 +2,7 @@ package dk.lejengnaver.domain;
 
 import java.util.List;
 
-@XmlType(namespace = "http://lejengnaver.dk.domain/bookstore")
+@XmlType(namespace = "http://lejengnaver.dk/domain/bookstore")
 public class BookStore {
 
     private String name;

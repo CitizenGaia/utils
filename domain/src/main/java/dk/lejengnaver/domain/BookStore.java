@@ -1,4 +1,4 @@
-package dk.lejengnaver;
+package dk.lejengnaver.domain;
 
 import java.util.List;
 

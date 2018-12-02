@@ -41,26 +41,24 @@
                             </goals>
                     </execution>
                 </executions>
-
                 <configuration>
                     <transformSchemas>
-						<transformSchema>
-							<uri>http://lejengnaver.dk/domain/book</uri>
-							<toPrefix>bo</toPrefix>
-							<toFile>book.xsd</toFile>
-						</transformSchema>
-						<transformSchema>
-							<uri>http://lejengnaver.dk/domain/bookstore</uri>
-							<toPrefix>bs</toPrefix>
-							<toFile>bookstore.xsd</toFile>
-						</transformSchema>
-					</transformSchemas>
-					<includes>
-						<include>dk/lejengnaver/domain/*</include>
-					</includes>
-					<verbose>true</verbose>
-
-                   </configuration>
+                        <transformSchema>
+                            <uri>http://lejengnaver.dk/domain/book</uri>
+                            <toPrefix>bo</toPrefix>
+                            <toFile>book.xsd</toFile>
+                        </transformSchema>
+                        <transformSchema>
+                            <uri>http://lejengnaver.dk/domain/bookstore</uri>
+                            <toPrefix>bs</toPrefix>
+                            <toFile>bookstore.xsd</toFile>
+                        </transformSchema>
+                    </transformSchemas>
+                    <includes>
+                        <include>dk/lejengnaver/domain/*</include>
+                    </includes>
+                    <verbose>true</verbose>
+                </configuration>
             </plugin>
         </plugins>
     </build>

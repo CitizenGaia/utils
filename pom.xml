@@ -11,6 +11,7 @@
 
 	  <modules>
 		    <module>store</module>
+		  <modeule>domain</module>
 	  </modules>
 
 </project>

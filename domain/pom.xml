@@ -41,6 +41,7 @@
                             </goals>
                     </execution>
                 </executions>
+                <!--
                 <configuration>
                     <transformSchemas>
                         <transformSchema>
@@ -59,6 +60,7 @@
                     </includes>
                     <verbose>true</verbose>
                 </configuration>
+                -->
             </plugin>
         </plugins>
     </build>

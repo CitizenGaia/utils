@@ -8,14 +8,18 @@ public class BookStore {
     
     public String getName() {
         return name;
-		}
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 		
-		public void addBook(Book book) {
-				this.books.add(book);
-		}
+    public void addBook(Book book) {
+        this.books.add(book);
+    }
 		
-		public List<Book> getBooks() {
-				return this.books;
-		}
+    public List<Book> getBooks() {
+        return this.books;
+    }
 
 }

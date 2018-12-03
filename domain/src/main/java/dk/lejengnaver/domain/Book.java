@@ -1,7 +1,7 @@
 package dk.lejengnaver.domain;
 
 import java.util.Date;
-import javax.xml.bind.annotation.xmltype.XmlType;
+import javax.xml.bind.annotation.XmlType;
 
 @XmlType(namespace = "http://lejengnaver.dk/domain/book")
 public class Book {

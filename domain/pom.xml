@@ -37,7 +37,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <outputDirectory>{$project.build.directory}/generated-resources/schemagen</outputDirectory>
+                    <outputDirectory>${project.build.directory}/generated-resources/schemagen</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>

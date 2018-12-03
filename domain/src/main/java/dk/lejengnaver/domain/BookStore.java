@@ -25,5 +25,8 @@ public class BookStore {
     public List<Book> getBooks() {
         return this.books;
     }
+    public void setBooks(List<Book> books) {
+        this.books = books;
+    }
 
 }
